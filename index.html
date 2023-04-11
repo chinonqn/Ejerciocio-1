@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Menu navegacion-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav-tabs">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Informacion</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Fin Menu-->
+      <!-- Slider-->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <a href="#"><img src="img/Perrito 1.jpg" class="d-block w-100" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Perrito 1</h5>
+              <p>Texto de Ejemplo.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/Perrito 3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Perrito 3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Fin Slider -->
+      <!-- inicio Body -->
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/flor 1.jpg" class="imgflor img-fluid rounded">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/flor 1.jpg" class="imgflor img-fluid rounded">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/flor 1.jpg" class="imgflor img-fluid rounded">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/flo2.jpg" class="flor2 img-fluid rounded shadow p-3">
+                </div>
+                <div class="col-md-6">
+                    <img src="img/flo2.jpg" class="flor2 img-fluid rounded shadow p-3">
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- Inicio Shopp-->
+        <div class="container">
+            <div class="row"></div>
+                <div class="col-md-10 offset-md-1 text-center TextValor">
+                    <h2>Precios mayoristas -- Mínimo de compra $6000</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row shopproduct">
+                <div class="col-md-10 offset-md-1 ">
+                    <div class="container-fluid">
+                        <div class="row ">
+                            <div class="col-md-3">
+                                <img src="img/Shop1.webp" class="img-fluid">
+                                <div class="text-center">
+                                    <p class="fs-5 fw-semibold">Producto 1</p>
+                                    <p class="fs-5 fw-bold">$400</p>
+                                    <button type="button" class="btn btn-primary btn-sm compra">Comprar</button>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="img/Shop1.webp" class="img-fluid">
+                                <div class="text-center">
+                                    <p class="fs-5 fw-semibold">Producto 2</p>
+                                    <p class="fs-5 fw-bold">$400</p>
+                                    <button type="button" class="btn btn-primary btn-sm compra">Comprar</button>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="img/Shop1.webp" class="img-fluid">
+                                <div class="text-center">
+                                    <p class="fs-5 fw-semibold">Producto 3</p>
+                                    <p class="fs-5 fw-bold">$400</p>
+                                    <button type="button" class="btn btn-primary btn-sm compra">Comprar</button>
+                                </div>
+                        </div>
+                            <div class="col-md-3">
+                                <img src="img/Shop1.webp" class="img-fluid">
+                                <div class="text-center">
+                                    <p class="fs-5 fw-semibold">Producto 4</p>
+                                    <p class="fs-5 fw-bold">$400</p>
+                                    <button type="button" class="btn btn-primary btn-sm compra">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row shopproduct">
+                <div class="col-md-10 offset-md-1 ">
+                    <div class="container-fluid">
+                        <div class="row ">
+                            <div class="col-md-3">
+                                <img src="img/Shop1.webp" class="img-fluid">
+                                <div class="text-center">
+                                    <p class="fs-5 fw-semibold">Producto 1</p>
+                                    <p class="fs-5 fw-bold">$400</p>
+                                    <button type="button" class="btn btn-primary btn-sm compra">Comprar</button>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="img/Shop1.webp" class="img-fluid">
+                                <div class="text-center">
+                                    <p class="fs-5 fw-semibold">Producto 2</p>
+                                    <p class="fs-5 fw-bold">$400</p>
+                                    <button type="button" class="btn btn-primary btn-sm compra">Comprar</button>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="img/Shop1.webp" class="img-fluid">
+                                <div class="text-center">
+                                    <p class="fs-5 fw-semibold">Producto 3</p>
+                                    <p class="fs-5 fw-bold">$400</p>
+                                    <button type="button" class="btn btn-primary btn-sm compra">Comprar</button>
+                                </div>
+                        </div>
+                            <div class="col-md-3">
+                                <img src="img/Shop1.webp" class="img-fluid">
+                                <div class="text-center">
+                                    <p class="fs-5 fw-semibold">Producto 4</p>
+                                    <p class="fs-5 fw-bold">$400</p>
+                                    <button type="button" class="btn btn-primary btn-sm compra">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <!-- Fin Shop-->
+      <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/Cuerpo 1.webp" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 offset-md-6">
+                        <img src="img/Cuerpo 1.webp" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- Redes -->
+      <i class="fa-brands fa-instagram"></i>
+      <!-- Fin Redes-->
+      <!-- Fin Body-->
+    <footer class="foother">
+        <!-- Script -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    </footer>
+  </body>
+</html>
